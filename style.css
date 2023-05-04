@@ -1,0 +1,136 @@
+body{
+    background-color: #fff3c8;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    text-decoration: underline;
+    color: #daad6a;
+}
+
+.icecream-card {
+    padding: 0.5rem;
+    color: #d3929e;
+    width: 50%;
+    max-width: 12rem;
+    min-width: 6rem;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem 1rem 0;
+    box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.75);
+}
+
+.icecream-card:hover {
+    cursor: pointer;
+}
+
+.icecream-card .text-elements {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.4rem 0 0.16rem 0;
+    flex-grow: 1;
+}
+
+.icecream-card .text-elements p{
+    margin: 0;
+    padding: 0 0.5rem;
+}
+
+.icecream-card img {
+    width: 100%;
+    height: 70%;
+    max-height: 7rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.25rem;
+    flex-grow: 1;
+}
+
+/* Cart Themes */
+
+.cart {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    justify-content: stretch;
+    box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 15px -7px rgba(0,0,0,0.75);
+}
+
+.cart .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    flex-grow: 1;
+    max-height: 3rem;
+    border-bottom: darkgray 0.2rem solid;
+}
+
+.cart .title p{
+    flex-grow: 1;
+    padding: 0;
+    margin: 0;
+    color: deepskyblue;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.cart .items {
+    flex-grow: 1;
+}
+
+.cart .items .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.cart .items .item p{
+    flex-grow: 1;
+    padding: 0;
+    margin: 0;
+    width: 25%;
+}
+
+.cart .items .item .name{
+    flex-grow: 1;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cart .items .item .name button{
+    border: 0;
+    background: none;
+    font-size: 0.5rem;
+}
+
+.cart .total {
+    background-color: lightgrey;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    max-height: 4rem;
+    justify-self: baseline;
+    justify-items: center;
+    align-items: center;
+}
+
+.cart .total p{
+    padding: 0;
+    margin: 0 0.7rem 0 0;
+}
