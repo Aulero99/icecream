@@ -25,28 +25,30 @@
 <!-- No infor for this project -->
     </header>
     
-    <main class="container-fulid p-3">
+    <main class="container-fulid px-3">
         <section class="row">
-            <div class="col-12 col-md-5 order-2 order-md-1 cart-area">
-                <div class="cart sticky-top">
-                    <div class="title">
-                        <!-- TODO set columns here to the same as the structure below -->
-                        <p>Name</p>
-                        <p>Qty</p>
-                        <p>Each</p>
-                        <p>Total</p>
-                    </div>
-                    <div id="cart" class="items">
-                        <!-- This is where the javascript draws the cart elements -->
-                    </div>
-                    <div class="total">
-                        <p>Total:</p>
-                        <p>$<span id="totalHTM">0</span>.00</p>
-                        <button class="btn btn-dark" onclick="addToCart('clearCart',0)">PAY</button>
+            <div class="col-12 col-md-5 order-2 order-md-1 ">
+                <div class="cart-area sticky-top">
+                    <div class="cart">
+                        <div class="title">
+                            <!-- TODO set columns here to the same as the structure below -->
+                            <p>Name</p>
+                            <p>Qty</p>
+                            <p>Each</p>
+                            <p>Total</p>
+                        </div>
+                        <div id="cart" class="items">
+                            <!-- This is where the javascript draws the cart elements -->
+                        </div>
+                        <div class="total">
+                            <p>Total:</p>
+                            <p>$<span id="totalHTM">0</span>.00</p>
+                            <button class="btn btn-dark" onclick="addToCart('clearCart',0)">PAY</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-7 order-1 order-md-2">
+            <div class="col-12 col-md-7 order-1 order-md-2 py-2">
                 <h1>Toppings</h1>
                 <div id="toppingsHTM" class="d-flex flex-row flex-wrap">
                     <!-- Content in app.js -->
